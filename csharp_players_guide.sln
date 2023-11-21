@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "level_1", "level_1", "{61065E6C-C53E-4D18-BBD3-C5A3B096BA8D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{1B0CB10B-D078-46C9-A001-CD00A3CDBEA9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "exercises", "level_1\src\exercises\exercises.csproj", "{6CD1ECE8-7962-471A-9C56-EFF9D9677BF9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{B8C6DEE5-DF35-48FE-9E75-B68227D8423B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tests", "level_1\test\tests\tests.csproj", "{F0B723FB-CA32-4CAB-8FCD-8540376A4BEF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6CD1ECE8-7962-471A-9C56-EFF9D9677BF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CD1ECE8-7962-471A-9C56-EFF9D9677BF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CD1ECE8-7962-471A-9C56-EFF9D9677BF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CD1ECE8-7962-471A-9C56-EFF9D9677BF9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F0B723FB-CA32-4CAB-8FCD-8540376A4BEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0B723FB-CA32-4CAB-8FCD-8540376A4BEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0B723FB-CA32-4CAB-8FCD-8540376A4BEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0B723FB-CA32-4CAB-8FCD-8540376A4BEF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1B0CB10B-D078-46C9-A001-CD00A3CDBEA9} = {61065E6C-C53E-4D18-BBD3-C5A3B096BA8D}
+		{6CD1ECE8-7962-471A-9C56-EFF9D9677BF9} = {1B0CB10B-D078-46C9-A001-CD00A3CDBEA9}
+		{B8C6DEE5-DF35-48FE-9E75-B68227D8423B} = {61065E6C-C53E-4D18-BBD3-C5A3B096BA8D}
+		{F0B723FB-CA32-4CAB-8FCD-8540376A4BEF} = {B8C6DEE5-DF35-48FE-9E75-B68227D8423B}
+	EndGlobalSection
+EndGlobal
